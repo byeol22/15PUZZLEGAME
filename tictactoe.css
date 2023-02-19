@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ariel', cursive;
+}
+
+.background {
+    background-color: black;
+    
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5px;
+    border: 2px solid red;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+
+.container {              
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: red;
+}
+
+.playerO {
+    color: blue;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.controls button {
+    color: white;
+    padding-top: 5px;
+    width: 30%;
+    border-radius: 28px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+#goback{
+    width: 30%;
+    border-radius: 28px;
+    font-size: 20px;
+    margin-left: 470px;
+    cursor: pointer;
+    padding-top: 2px;
+    background-color: orangered;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.hide{
+    display: none;
+}
+.restart {
+    background-color: lightblue;
+}
+
+#reset {
+    background-color: orangered;
+}

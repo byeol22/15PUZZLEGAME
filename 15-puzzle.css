@@ -1,0 +1,85 @@
+body{
+  background-image: linear-gradient(to right,#642b73,#c6426e);
+}     
+h1{
+	  color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top:5px ;
+    border: 2px solid yellow;
+} 
+#goback{
+    width: 30%;
+    border-radius: 28px;
+    font-size: 28px;
+    margin-left: 470px;
+    cursor: pointer;
+    background-color: orangered;
+}   
+
+a{
+    color: white;
+    text-decoration: none;
+}  
+p{
+
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+#controls{
+	text-align: center;
+}
+#controls button{
+	cursor: pointer;
+	outline: none;	
+	padding: 15px 25px;
+	margin: 25px 2px;
+	border-color: red;
+	border-radius: 15px;
+	background: orange;
+	font: bold 20px Verdana;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+#controls button:hover{
+	background: black;
+}
+
+#puzzle{
+	position: relative;
+	width: 325px;
+	height: 325px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 8px solid orangered;
+	border-radius: 6px;
+}
+#puzzle span{
+	position: absolute;
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+}
+#puzzle span.number{
+	cursor: pointer;
+	font: bold 36px/100px Arial;
+	text-align: center;
+	color: white;
+}
+#puzzle span.empty{
+	background: transparent;
+}
+#puzzle span.number.light{
+	background: black;
+}
+#puzzle span.number.dark{
+	background: black;
+}
+
+#puzzle.animate span{
+	-webkit-transition: 0.25s left, 0.25s top;
+ 	transition: 0.35s left, 0.35s top;
+}
